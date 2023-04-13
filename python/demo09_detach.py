@@ -14,7 +14,8 @@ def do_task():
 
 
 
-th_foo = threading.Thread(target=do_task, daemon=True)
+th_foo = threading.Thread(target=do_task)
+# th_foo = threading.Thread(target=do_task, daemon=True)
 th_foo.start()
 
 # If I comment this statement,

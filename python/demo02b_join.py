@@ -19,3 +19,4 @@ th_bar.start()
 We do not need to call th_foo.join() and th_bar.join().
 The reason is main thread will wait for the completion of all threads before app exits.
 '''
+print('finished')
