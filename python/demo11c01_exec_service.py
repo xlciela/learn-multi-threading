@@ -6,10 +6,8 @@ Version C01: The executor service and Future objects
 from concurrent.futures import ThreadPoolExecutor
 
 
-
 def get_squared(x):
     return x * x
-
 
 
 executor = ThreadPoolExecutor(max_workers=1)
